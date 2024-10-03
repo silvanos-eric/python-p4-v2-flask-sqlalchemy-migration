@@ -22,7 +22,7 @@ class Employee(db.Model):
 
 
 class Department(db.Model):
-    __table_name__ = 'department'
+    __tablename__ = 'departments'
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String, nullable=False)
